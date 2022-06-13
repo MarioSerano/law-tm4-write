@@ -19,7 +19,7 @@ const startServer = async () => {
     })
   );
 
-  app.post("/update", db.updateUser);
+  app.post("/update", db.updateMahasiswa);
 
   app
     .listen(config.port, () => {
